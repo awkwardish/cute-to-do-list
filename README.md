@@ -26,7 +26,9 @@ A cozy, pastel-themed to-do list web app with:
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/awkwardish/aesthetic-todo-list.git
+   git clone https://github.com/awkwardish/cute-to-do-list.git
+
+2. Open index.html in your browser   
 
 
 
