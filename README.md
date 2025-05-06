@@ -1,4 +1,4 @@
-# ☕ Aesthetic To-Do List
+# ☕ Cute To-Do List
 
 A cozy, pastel-themed to-do list web app with:
 - 🗓️ Task + due date input
