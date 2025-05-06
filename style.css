@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(to right, #f6f1e7, #e8dccc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff7ee;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 450px;
+  text-align: center;
+  border: 3px solid #d2b48c;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  color: #8b5e3c;
+  margin-bottom: 20px;
+}
+
+  
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+
+input[type="text"],
+input[type="date"] {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #d2b48c;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #fffefb;
+}
+  
+button {
+  background-color: #a47148;
+  color: #fff8ed;
+  border: none;
+  padding: 12px 16px;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  box-shadow: 0 4px #7b4f2b;
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+
+
+button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px #7b4f2b;
+}
+
+
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #fdf0f5;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    background: #d6c2a1;
+    color: #85765b;
+  }
+  
+  li button {
+    background: transparent;
+    border: none;
+    color: #ff69b4;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+
+  li {
+    background: #f4e4ce;
+    margin: 8px 0;
+    padding: 12px 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.05);
+    transition: background 0.3s ease;
+  }
+  
+  li .left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-grow: 1;
+  }
+  
+  
+  li input[type="checkbox"] {
+    transform: scale(1.3);
+    cursor: pointer;
+    accent-color: #a47148;
+  }
+
+
+  
+  li span.date {
+  font-size: 0.8rem;
+  color: #80664d;
+}
+
+  .completed {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  
